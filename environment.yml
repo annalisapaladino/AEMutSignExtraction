@@ -1,0 +1,20 @@
+name: DL_GENOMICS
+channels:
+  - pytorch
+dependencies:
+  - python=3.10
+  - jupyter
+  - numpy < 2.0
+  - pandas
+  - matplotlib
+  - pytorch
+  - seaborn
+  - pandas
+  - tqdm
+  - pip
+  - pip:
+    - scikit-learn
+    - scikit-learn-extra
+    - scipy
+    - scikit-optimize
+    
